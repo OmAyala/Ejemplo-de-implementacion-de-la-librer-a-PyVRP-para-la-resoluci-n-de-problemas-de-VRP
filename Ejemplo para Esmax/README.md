@@ -5,7 +5,8 @@ Se extrajeron 5 clientes, Curicó, Melipilla, Chimbarongo, Pichilemu y Molina, c
 - Para calcular las distancias entre todos los nodos, se usó Google Maps para obtener las distancias aproximadas.
 - El resultado es una combinación de clientes a los que visitar en orden, para cada vehículo, donde los resultados se ven a continuación, incluso logrando cumplir esa ruta solo con dos camiones de los tres ingresado al sistema:
 
-  <img width="1121" height="841" alt="esmax-resultado-iteración drawio" src="https://github.com/user-attachments/assets/9ed92746-b5d5-438e-a302-8a7b6897eb83" />
+<img width="1121" height="841" alt="esmax-resultado-iteración drawio" src="https://github.com/user-attachments/assets/40f4edbd-1cfd-486c-9a19-7151ab915c11" />
+
 
 
 ## Sobre los pasos a seguir a continuación y para futuras iteraciones
