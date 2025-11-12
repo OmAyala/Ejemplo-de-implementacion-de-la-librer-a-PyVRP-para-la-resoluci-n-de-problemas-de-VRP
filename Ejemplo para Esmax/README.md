@@ -26,4 +26,4 @@ Se extrajeron 5 clientes, Curicó, Melipilla, Chimbarongo, Pichilemu y Molina, c
 
 - Respecto a Nodos (Planta + Clientes): Pedido (en caso de la planta es 0), horario de inicio de atención y horario de fin de atención.
 - Respecto a Distancias: Una matriz completa con distancias entre todos los nodos.
-- Respecto a los vehículos: Capacidad de carga, número de vehículos disponible por tipo, planta en la que comienza sus operaciones, planta en la que termina sus operaciones, costo fijo asociado al uso del vehículo, costo variable asociado a distancia recorrida, horario de inicio de funcionamiento y horario de fin de atención.
+- Respecto a los vehículos: Capacidad de carga, número de vehículos disponible por tipo, planta en la que comienza sus operaciones, planta en la que termina sus operaciones, costo fijo asociado al uso del vehículo, costo variable asociado a distancia recorrida, horario de inicio de funcionamiento y horario de fin de funcionamiento.
