@@ -7,7 +7,11 @@ Se extrajeron 5 clientes, Curicó, Melipilla, Chimbarongo, Pichilemu y Molina, c
 
 ![gif-resultado](https://github.com/user-attachments/assets/baf79a26-d990-4a9c-b7e4-f8948a6ca717)
 
+#### Variables usadas en el ejemplo
 
+- Respecto a Nodos (Planta + Clientes): Pedido (en caso de la planta es 0)
+- Respecto a Distancias: Una matriz completa con distancias entre todos los nodos.
+- Respecto a los vehículos: Capacidad de carga, número de vehículos disponible por tipo, planta a la que está asociado.
 
 
 ## Sobre los pasos a seguir a continuación y para futuras iteraciones
@@ -17,3 +21,9 @@ Se extrajeron 5 clientes, Curicó, Melipilla, Chimbarongo, Pichilemu y Molina, c
 -  Según el entendimiento del problema, los clientes, o estaciones de servicio, así como la planta y los vehículos, tienen horarios de funcionamiento 24/7, lo que dificulta el determinar un horario para cada ruta, ya que esto implicaría simplemente "despachar cuanto antes". Para iteraciones futuras, es posible incorporar ventanas de tiempo para la Planta, los clientes y los vehículos, siendo las ventanas de tiempo definidads con horario de inicio de actividades u horario de inicio de recepción, y un horario de fin de actividades o fin de horario de recepción.
 -  El entendimiento del problema es que se hace una planificación diaria
 -  Es posible incorporar costos fijos y variables para cada camión, lo que afecta la elección de camiones para cada ruta. Estos costos variables son por distancia de la ruta.
+
+#### Variables ideales para incorporar al modelo
+
+- Respecto a Nodos (Planta + Clientes): Pedido (en caso de la planta es 0), horario de inicio de atención y horario de fin de atención.
+- Respecto a Distancias: Una matriz completa con distancias entre todos los nodos.
+- Respecto a los vehículos: Capacidad de carga, número de vehículos disponible por tipo, planta a la que está asociado.
