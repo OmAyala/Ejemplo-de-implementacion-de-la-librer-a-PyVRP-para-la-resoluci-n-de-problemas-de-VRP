@@ -4,6 +4,41 @@ Por el momento es una implementación de ejemplo, que busca ser prontamente una 
 
 Se presentan dos archivos jupyter notebook con ejemplos de VRP, con el objetivo de explicar y demostrar algunas de las capacidades de la librería.
 
+El repositorio sigue la siguiente estructura:
+
+```
+├── README.md #Este archivo
+├── requirements.txt #Requisitos
+📁 Ejemplo para Esmax #Ejemplos enfocados en Esmax
+ │
+ ├── README.md
+ ├── ejemplo_esmax.ipynb #Ejemplo enfocado en 5 clientes y una planta
+ |
+ |
+ ├── 📁 Ejemplo con ventanas de tiempo #Ejemplo incluyendo ventanas de tiempo para planta, clientes y vehículos
+ │   ├── README.md
+ │   └── ejemplo_esmax_10clientes_timewindows.ipynb
+ │
+ ├── 📁 Ejemplo extendido #Ejemplo con 10 clientes y más vehículos
+ │   ├── README.md
+ │   └── ejemplo_esmax_10clientes.ipynb
+ │
+ │
+ ├── 📁 Ejemplos_Notebooks #Primeros ejemplos de prueba
+     │
+     ├── 📁 Datos #Datos ficticios para ejemplos de prueba
+     |    └─ data.xlsx
+     ├── Ejemplo_VRP.ipynb
+     ├── Ejemplo_VRP_2.ipynb
+     ├── Ejemplo_VRP_lectura.py
+     ├── Ejemplo_carga_datos.ipynb
+     └── Readme_ejemplos
+   
+
+
+
+
+```
 # Requisitos
 
 Para poder ejecutar los códigos es necesaria la instalación de la librería PyVRP
