@@ -3,7 +3,7 @@
 - El archivo de ejemplo 'ejemplo_esmax_10cleintes.ipynb' presenta un ejemplo resumido, con un subconjunto de datos extraídos desde datos proporcionados, basados en la Planta Maipú.
 Se extrajeron 10 clientes; Curicó, Melipilla, Chimbarongo, Pichilemu, Molina, Calera de Tango, Puente Alto, San Bernardo, Reocletay Cerrillos, con su respectiva demanda o pedidos. También se asumieron 16 vehículos, repartidos en 3 categorías con capacidades de carga distintas, todos en la Planta Maipú. Se asume que todos los camiones comienzan y terminan en la Planta Maipú. 
 - Para calcular las distancias entre todos los nodos, se usó Google Maps para obtener las distancias aéreas aproximadas.
-- El resultado es una combinación de clientes a los que visitar en orden, para cada vehículo, donde los resultados se ven a continuación, incluso logrando cumplir esa ruta solo con dos camiones de los tres ingresado al sistema:
+- El resultado es una combinación de clientes a los que visitar en orden, para cada vehículo.
 - Se explora la escalabilidad del problema. Suponiendo que existen n nodos, agregar un nodo más significa introducir a la matriz n distancias si el problema es simétrico (es decir, que la distancia entre la ida y la vuelta sea la misma) o 2n distancias distintas en caso asimétrico.
 - Agregar vehículos no supone mayor problema. 
 
